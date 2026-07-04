@@ -45,7 +45,7 @@ export default function Location() {
         <div className="location__map">
           <iframe
             title="Mapa — Miss Yay Facial Lounge"
-            src="https://www.google.com/maps?q=7620+Gunn+Hwy+Suite+120+Tampa+FL+33625&output=embed"
+            src="https://www.google.com/maps?q=Tampa+FL+33615&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             allowFullScreen

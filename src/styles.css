@@ -769,3 +769,29 @@ a { color: inherit; }
   font-style: italic;
   color: var(--ink-soft);
 }
+
+/* ---------- fix navbar movil (boton Reservar + hamburguesa visibles) ---------- */
+
+@media (max-width: 640px) {
+  .nav__inner {
+    padding: 0.65rem 0.85rem;
+    gap: 0.5rem;
+  }
+  .nav__brand { font-size: 0.98rem; gap: 0.4rem; }
+  .nav__brand em { display: none; } /* oculta "Facial Lounge" en pantallas chicas */
+  .nav__brand-mark { width: 12px; height: 17px; }
+  .nav__actions { gap: 0.45rem; flex: none; }
+  .nav__actions .btn--gold {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+  .lang-toggle { padding: 0.38rem 0.65rem; font-size: 0.76rem; }
+  .nav__burger { padding: 4px; }
+  .nav__links { top: 54px; }
+}
+
+@media (max-width: 360px) {
+  .nav__brand { font-size: 0.9rem; }
+  .nav__actions .btn--gold { padding: 0.45rem 0.75rem; }
+}

@@ -12,8 +12,8 @@ const sp = (ids) => ids.map((id) => `${CDN}service_photos/${id}.jpeg`)
 export const BUSINESS = {
   name: 'Miss Yay Facial Lounge',
   esthetician: 'Yay Ortega',
-  address: '7620 Gunn Hwy, Suite #120, Tampa, FL 33625',
-  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=7620+Gunn+Hwy+Suite+120+Tampa+FL+33625',
+  address: 'Tampa, FL 33615',
+  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Tampa+FL+33615',
   rating: 5.0,
   reviewCount: 24,
   logo: `${CDN}logo/86f1fcc1a85d44198adca18cf20679-miss-yay-logo-f8cbc163a6fe41778fbc5091d56446-booksy.jpeg`,

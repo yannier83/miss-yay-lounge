@@ -1,7 +1,7 @@
 import { useLang, UI } from '../i18n/LanguageContext.jsx'
 import { STORY_VIDEO } from '../data/services.js'
 
-const BRANDS = ['Circadia', 'Dermalume LED', 'BioRePeel']
+const BRANDS = ['Circadia', 'Eminence Organics', 'Sesderma', 'BioRePeel', 'Zemits', 'Arganmidas', 'doTERRA', 'Professional Korean Skincare']
 
 export default function About() {
   const { t } = useLang()
